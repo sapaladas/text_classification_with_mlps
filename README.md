@@ -224,7 +224,8 @@ _ = hyperparameter_tuning(x_valid_svd, y_valid)
 - The final step was to train the MLP model using the hyperparameters obtained during tuning
 - In addition, we used the `ModelCheckpoint` callback to save the best weights for the nodes
 - We plotted the curves showing the accuracy and loss on training data as a function of epochs
-- We evaluated the performance of the MLP model in the *test* set and plotted the *confusion matrix* and the *AUC curve*
+- We evaluated the performance of the MLP model in the *test* set
+- Finally, we plotted the *confusion matrix* and the *AUC curve*
 - Below you can find the results obtained from each classifier on the test set
 
 |     | Precision | Recall | F1-Score | Accuracy | Area Under Curve |
