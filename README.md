@@ -70,7 +70,7 @@
   - Perform stemming
 - Below you can find the function used to clean the reviews
 
-```
+``` python
 def preprocess_data(review):
 
     # convert to lowercase
@@ -153,7 +153,7 @@ df.review = df.review.apply(preprocess_data)
 - Finally, we evaluated the scores obtained from cross validation using the *F1-Score* metric
 - Below you can find the function used to tune the hyperparameters
 
-```
+``` python
 def hyperparameter_tuning(x_valid, y_valid):
 
     # hyperparameters to test
